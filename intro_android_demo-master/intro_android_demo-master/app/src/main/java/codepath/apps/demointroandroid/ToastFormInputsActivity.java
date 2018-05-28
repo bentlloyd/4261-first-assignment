@@ -10,6 +10,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class ToastFormInputsActivity extends Activity {
 	
 	EditText etVal;
@@ -38,6 +41,11 @@ public class ToastFormInputsActivity extends Activity {
 		
 		String text = etVal.getText() + " | " + chkVal.isChecked() + " | " + b.getText();
 		Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+// Write a message to the database
+		FirebaseDatabase database = FirebaseDatabase.getInstance();
+		DatabaseReference myRef = database.getReference("Active Toast Input");
+
+		myRef.setValue(text);
 	}
 
 }
