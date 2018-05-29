@@ -26,8 +26,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".DemoSelector"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".BasicTextViewActivity"
             android:label="@string/title_activity_basic_text_view" />
@@ -41,7 +40,7 @@
             android:name=".BasicViewsActivity"
             android:label="@string/title_activity_basic_views" />
         <activity
-            android:name=".ViewAttributesActivity"
+            android:name=".TweetActivity"
             android:label="@string/title_activity_view_attributes" />
         <activity
             android:name=".SimpleListViewActivity"
@@ -105,16 +104,19 @@
             android:label="@string/title_activity_publishing_instructions" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up" />
+        <activity
+            android:name=".ComposeTweetActivity"
+            android:label="@string/title_activity_compose_tweet" />
     </application>
 
 </manifest>
