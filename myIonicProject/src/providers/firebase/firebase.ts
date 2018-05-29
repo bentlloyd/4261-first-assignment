@@ -18,8 +18,4 @@ export class FirebaseProvider {
   addItem(name) {
     this.afd.list('/Toaast Input').push(name);
   }
-  //
-  // removeItem(id) {
-  //   this.afd.list('/shoppingItems/').remove(id);
-  // }
 }
