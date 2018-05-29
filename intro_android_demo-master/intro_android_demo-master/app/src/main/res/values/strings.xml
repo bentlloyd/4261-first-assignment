@@ -49,5 +49,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="title_activity_profile">ProfileActivity</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">1rPFijn1PgCfV2xkGkEbLDFsw</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">YP8gmRguGOOolIx6e2vr3ATs1hVlwwYQBy0ieSEq5cuwnJmfBz</string>
 
 </resources>
