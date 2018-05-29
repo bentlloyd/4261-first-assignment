@@ -18,6 +18,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -85,7 +87,7 @@
             android:name=".SpinnerWithToastActivity"
             android:label="@string/title_activity_spinner_with_toast" />
         <activity
-            android:name=".TimePickerDemoActivity"
+            android:name=".DistanceToCancun"
             android:label="@string/title_activity_time_picker_demo" />
         <activity
             android:name=".ProgressBarActivity"

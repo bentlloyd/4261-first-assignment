@@ -7,9 +7,9 @@ import android.content.DialogInterface;
 // SimpleAlertDialog.displayWithOK(this, "Hello", "Title");
 public class SimpleAlertDialog {
 	public static void displayWithOK(Context c, String message) {
-		displayWithOK(c, message, "CodePath Demo Intro Android");		
+		displayWithOK(c, message, "CodePath Demo Intro Android");
 	}
-	
+
 	public static void displayWithOK(Context c, String message, String title) {
 		final AlertDialog alertDialog = new AlertDialog.Builder(c).create();
 
