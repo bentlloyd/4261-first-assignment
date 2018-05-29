@@ -7,18 +7,4 @@
     android:orientation="vertical"
     tools:context=".TimePickerDemoActivity" >
 
-    <TimePicker
-        android:id="@+id/tpTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="29dp" />
-
-    <Button
-        android:id="@+id/btnDisplayTime"
-        android:layout_width="wrap_content"
-        android:onClick="displayTime"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Submit" />
-
 </LinearLayout>

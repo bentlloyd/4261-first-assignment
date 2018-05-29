@@ -51,5 +51,8 @@
     <string name="title_activity_profile">ProfileActivity</string>
     <string name="com.twitter.sdk.android.CONSUMER_KEY">1rPFijn1PgCfV2xkGkEbLDFsw</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET">YP8gmRguGOOolIx6e2vr3ATs1hVlwwYQBy0ieSEq5cuwnJmfBz</string>
+    <string name="title_activity_embedded_tweets">EmbeddedTweetsActivity</string>
+    <string name="title_activity_compose_tweet">ComposeTweetActivity</string>
+    <string name="title_activity_tweet">TweetActivity</string>
 
 </resources>

@@ -3,7 +3,7 @@
     <string-array name="chapters">
        <item>App Fundamentals</item>
        <item>User Interface</item>
-       <item>View Controls</item>
+       <item>View Controls and tweet</item>
        <item>User Interactions</item>
        <item>User Flows</item>
        <item>Networking</item>
@@ -22,7 +22,7 @@
     <string-array name="chap3">
         <item>Layout Gravity</item>
         <item>Basic Views</item>
-        <item>View Attributes</item>
+        <item>Tweet</item>
         <item>Simple ListView</item>
     </string-array>
     <string-array name="chap4">

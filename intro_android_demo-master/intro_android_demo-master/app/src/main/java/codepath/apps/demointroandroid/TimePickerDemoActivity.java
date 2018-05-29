@@ -15,7 +15,6 @@ public class TimePickerDemoActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_time_picker_demo);
-		tpTime = (TimePicker) findViewById(R.id.tpTime);
 	}
 
 	@Override
@@ -24,7 +23,7 @@ public class TimePickerDemoActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_time_picker_demo, menu);
 		return true;
 	}
-	
+
 	public void displayTime(View v) {
 		String time = tpTime.getCurrentHour() + ":" + tpTime.getCurrentMinute();
 		Toast.makeText(this, time, Toast.LENGTH_SHORT).show();

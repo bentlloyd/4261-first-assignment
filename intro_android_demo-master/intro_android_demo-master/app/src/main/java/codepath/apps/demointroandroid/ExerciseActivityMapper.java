@@ -33,7 +33,7 @@ public class ExerciseActivityMapper {
 	  // Chapter 3: View Controls
 	  exerciseClassMap.put("chap3ex1", LayoutGravityActivity.class);
 	  exerciseClassMap.put("chap3ex2", BasicViewsActivity.class);
-	  exerciseClassMap.put("chap3ex3", ViewAttributesActivity.class);
+	  exerciseClassMap.put("chap3ex3", TweetActivity.class);
 	  exerciseClassMap.put("chap3ex4", SimpleListViewActivity.class);
 	  // Chapter 4: User Interactions
 	  exerciseClassMap.put("chap4ex1", BasicClickHandlersActivity.class);
